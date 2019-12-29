@@ -3,6 +3,10 @@ A small experiment of using a Raspberry and a few components to make a sensor fo
 
 > This is not a pi project intended for didactic purposes or similar. Just for Giuseppe's reference.
 
+## Layout
+
+Raspberry pi 3B with berryconda python 3.6.
+
 ![photoresistor.jpg](photoresistor.jpg)
 
 * The resistor to the LED 10 k&#8486;
@@ -12,7 +16,9 @@ A small experiment of using a Raspberry and a few components to make a sensor fo
 * Photoresistor is GL5528
 * GPIO 14 was controlled with software PWM for testing
 
+## Code
 
+_see Jupyter Notebook_
 
         import busio
         import digitalio
@@ -76,7 +82,13 @@ A small experiment of using a Raspberry and a few components to make a sensor fo
         df.to_csv(filename)
         print(filename)
 
+## Pics
+
+Control with LED blinking (red) and response (blue, 0V = bright, 2.2V = dark). No idea why its 2.2 not 3.3V. No spirometer added.
+
 ![blink.png](blink.png)
+
+With spirometer and Giuseppe breathing into it.
 
 ![no_blink.png](no_blink.png)
 
