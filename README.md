@@ -92,6 +92,10 @@ With spirometer and Giuseppe breathing into it.
 
 ![no_blink.png](no_blink.png)
 
+![spirometer.jpg](spirometer.jpg)
+
+![pi.jpg](pi.jpg)
+
 
 
 
